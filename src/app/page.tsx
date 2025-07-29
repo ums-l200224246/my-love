@@ -1,6 +1,8 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
-import { Gift, Star, Flower } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Camera } from 'lucide-react';
 
 export default function Home() {
     return (
@@ -35,19 +37,13 @@ export default function Home() {
                                 <p className="text-base sm:text-lg leading-relaxed text-foreground/80">
                                     Di usiamu yang baru ini, aku doain yang terbaik buat kamu. Semoga kamu selalu bahagia, sehat, dan semua mimpi-mimpimu bisa tercapai. Tetap jadi Annisa yang aku kenal ya, yang ceria dan baik hati.
                                 </p>
-                                <div className="flex justify-center md:justify-start flex-wrap gap-3 pt-2">
-                                    <div className="flex items-center gap-2 text-accent-foreground bg-accent/50 p-2 rounded-lg text-sm">
-                                        <Gift className="w-5 h-5"/>
-                                        <span>Bahagia Selalu</span>
-                                    </div>
-                                    <div className="flex items-center gap-2 text-primary-foreground bg-primary/50 p-2 rounded-lg text-sm">
-                                        <Star className="w-5 h-5"/>
-                                        <span>Gapai Mimpimu</span>
-                                    </div>
-                                     <div className="flex items-center gap-2 text-accent-foreground bg-accent/50 p-2 rounded-lg text-sm">
-                                        <Flower className="w-5 h-5"/>
-                                        <span>Tetap Bersinar</span>
-                                    </div>
+                                <div className="flex justify-center md:justify-start pt-4">
+                                    <Link href="/gallery" passHref>
+                                        <Button size="lg" className="bg-primary/80 hover:bg-primary">
+                                            <Camera className="mr-2 h-5 w-5" />
+                                            Lihat Galeri Kenangan
+                                        </Button>
+                                    </Link>
                                 </div>
                                 <blockquote className="border-l-4 border-primary pl-4 italic text-foreground/70 mt-4 md:mt-6 text-sm sm:text-base">
                                     "Meskipun jalan kita mungkin udah berbeda, kenangan kita akan selalu punya tempat spesial. Sekali lagi, selamat ulang tahun, Annisa!"
