@@ -30,27 +30,27 @@ export default function Home() {
                             </div>
                             <div className="w-full md:w-1/2 space-y-4 md:space-y-6 text-center md:text-left">
                                 <p className="text-base sm:text-lg leading-relaxed text-foreground/80">
-                                    Untuk Annisa, sosok yang kehadirannya seindah fajar dan senyumnya sehangat mentari. Di hari yang istimewa ini, kami merayakan 21 tahun perjalananmu yang penuh pesona dan kebaikan.
+                                    Hai Annisa, selamat ulang tahun, ya! Nggak kerasa waktu cepat banget berlalu, sekarang kamu udah 21 tahun aja. Masih inget jelas semua kenangan yang pernah kita lewatin bareng.
                                 </p>
                                 <p className="text-base sm:text-lg leading-relaxed text-foreground/80">
-                                    Semoga setiap langkahmu di usia yang baru ini dihiasi dengan kebahagiaan yang tak terhingga, kesuksesan yang gilang-gemilang, dan cinta yang tulus dari orang-orang di sekelilingmu.
+                                    Di usiamu yang baru ini, aku doain yang terbaik buat kamu. Semoga kamu selalu bahagia, sehat, dan semua mimpi-mimpimu bisa tercapai. Tetap jadi Annisa yang aku kenal ya, yang ceria dan baik hati.
                                 </p>
                                 <div className="flex justify-center md:justify-start flex-wrap gap-3 pt-2">
                                     <div className="flex items-center gap-2 text-accent-foreground bg-accent/50 p-2 rounded-lg text-sm">
                                         <Gift className="w-5 h-5"/>
-                                        <span>Kebahagiaan</span>
+                                        <span>Bahagia Selalu</span>
                                     </div>
                                     <div className="flex items-center gap-2 text-primary-foreground bg-primary/50 p-2 rounded-lg text-sm">
                                         <Star className="w-5 h-5"/>
-                                        <span>Kesuksesan</span>
+                                        <span>Gapai Mimpimu</span>
                                     </div>
                                      <div className="flex items-center gap-2 text-accent-foreground bg-accent/50 p-2 rounded-lg text-sm">
                                         <Flower className="w-5 h-5"/>
-                                        <span>Keindahan</span>
+                                        <span>Tetap Bersinar</span>
                                     </div>
                                 </div>
                                 <blockquote className="border-l-4 border-primary pl-4 italic text-foreground/70 mt-4 md:mt-6 text-sm sm:text-base">
-                                    "Teruslah bersinar, karena dunia menjadi tempat yang lebih indah dengan adanya dirimu. Selamat ulang tahun, Annisa!"
+                                    "Meskipun jalan kita mungkin udah berbeda, kenangan kita akan selalu punya tempat spesial. Sekali lagi, selamat ulang tahun, Annisa!"
                                 </blockquote>
                             </div>
                         </main>
