@@ -41,7 +41,7 @@ export default function Home() {
                                     <Link href="/gallery" passHref>
                                         <Button size="lg" className="bg-primary/80 hover:bg-primary">
                                             <Camera className="mr-2 h-5 w-5" />
-                                            Lampiran
+                                            Lihat Kenangan
                                         </Button>
                                     </Link>
                                 </div>

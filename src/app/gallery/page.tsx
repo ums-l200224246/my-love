@@ -6,11 +6,11 @@ import { ArrowLeft } from 'lucide-react';
 
 export default function GalleryPage() {
   const memories = [
-    { src: "https://placehold.co/400x600.png", hint: "friends laughing" },
-    { src: "https://placehold.co/400x600.png", hint: "couple sunset" },
+    { src: "https://placehold.co/600x400.png", hint: "friends laughing" },
+    { src: "https://placehold.co/600x400.png", hint: "couple sunset" },
     { src: "https://placehold.co/600x400.png", hint: "group photo" },
     { src: "https://placehold.co/600x400.png", hint: "city skyline" },
-    { src: "https://placehold.co/400x600.png", hint: "beach vacation" },
+    { src: "https://placehold.co/600x400.png", hint: "beach vacation" },
     { src: "https://placehold.co/600x400.png", hint: "birthday party" },
   ];
 
@@ -21,10 +21,10 @@ export default function GalleryPage() {
           <CardContent className="p-6 md:p-12">
             <header className="text-center mb-8 md:mb-10">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-headline text-primary leading-tight">
-                Few photos for you
+                Galeri Kenangan
               </h1>
               <p className="mt-2 text-lg sm:text-xl text-primary/80">
-                semua pasti ada makna dan pembelajarannya.
+                Beberapa momen yang tak terlupakan.
               </p>
             </header>
 
