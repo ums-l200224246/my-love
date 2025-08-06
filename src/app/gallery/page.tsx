@@ -21,10 +21,10 @@ export default function GalleryPage() {
           <CardContent className="p-6 md:p-12">
             <header className="text-center mb-8 md:mb-10">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-headline text-primary leading-tight">
-                Whats in my Galery
+                What's in my Gallery
               </h1>
               <p className="mt-2 text-lg sm:text-xl text-primary/80">
-                Every second is my memory.
+                Every second is a memory.
               </p>
             </header>
 
@@ -34,7 +34,7 @@ export default function GalleryPage() {
                   <div key={index} className="overflow-hidden rounded-xl shadow-lg">
                     <Image
                       src={memory.src}
-                      alt={`Kenangan ${index + 1}`}
+                      alt={`Memory ${index + 1}`}
                       width={600}
                       height={400}
                       className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
@@ -46,7 +46,7 @@ export default function GalleryPage() {
 
               <div className="mt-8 md:mt-10 text-center">
                  <blockquote className="border-l-4 border-primary pl-4 italic text-foreground/70 mt-4 md:mt-6 text-base sm:text-lg max-w-2xl mx-auto">
-                    "Maaf yahh klo ternyata aku jarang nge-fotoin kamu... cuman ini yang di galeri"
+                    "Sorry if it turns out I rarely take photos of you... this is all that's in the gallery"
                 </blockquote>
               </div>
 
@@ -56,7 +56,7 @@ export default function GalleryPage() {
               <Link href="/" passHref>
                 <Button variant="outline">
                   <ArrowLeft className="mr-2 h-4 w-4" />
-                  Kembali ke Halaman Utama
+                  Back to Home
                 </Button>
               </Link>
             </footer>

@@ -25,7 +25,7 @@ export default function Home() {
                             <div className="w-full md:w-1/2 flex-shrink-0">
                                 <Image 
                                     src="/images/main.jpg"
-                                    alt="Potret Annisa Fitri Nur Salmi"
+                                    alt="Annisa Fitri Nur Salmi"
                                     width={600}
                                     height={800}
                                     className="rounded-xl shadow-lg object-cover w-full h-auto"
