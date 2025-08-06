@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
-import { Textarea } from '@/components/ui/textarea';
 
 export default function GalleryPage() {
   const memories = [
@@ -46,11 +45,9 @@ export default function GalleryPage() {
               </div>
 
               <div className="mt-8 md:mt-10 text-center">
-                <Textarea
-                  placeholder="Tuliskan harapan atau kenanganmu di sini..."
-                  className="bg-background/50 border-primary/30"
-                  rows={3}
-                />
+                 <blockquote className="border-l-4 border-primary pl-4 italic text-foreground/70 mt-4 md:mt-6 text-base sm:text-lg max-w-2xl mx-auto">
+                    "Setiap momen bersamamu adalah kenangan berharga. Semoga hari-harimu selalu seindah senyummu."
+                </blockquote>
               </div>
 
             </main>
