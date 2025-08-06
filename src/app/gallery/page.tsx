@@ -7,11 +7,11 @@ import { ArrowLeft } from 'lucide-react';
 export default function GalleryPage() {
   const memories = [
     { src: "/images/1.jpg", hint: "friends laughing" },
-    { src: "/images/2.jpg", hint: "couple sunset" },
-    { src: "/images/3.jpg", hint: "group photo" },
-    { src: "/images/4.jpg", hint: "city skyline" },
-    { src: "/images/5.jpg", hint: "beach vacation" },
-    { src: "/images/6.jpg", hint: "birthday party" },
+    { src: "https://placehold.co/600x400.png", hint: "couple sunset" },
+    { src: "https://placehold.co/600x400.png", hint: "group photo" },
+    { src: "https://placehold.co/600x400.png", hint: "city skyline" },
+    { src: "https://placehold.co/600x400.png", hint: "beach vacation" },
+    { src: "https://placehold.co/600x400.png", hint: "birthday party" },
   ];
 
   return (
@@ -21,10 +21,10 @@ export default function GalleryPage() {
           <CardContent className="p-6 md:p-12">
             <header className="text-center mb-8 md:mb-10">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-headline text-primary leading-tight">
-                Galeri Kenangan
+                Whats in my Galery
               </h1>
               <p className="mt-2 text-lg sm:text-xl text-primary/80">
-                Beberapa momen yang tak terlupakan.
+                Every second is my memory.
               </p>
             </header>
 
@@ -46,7 +46,7 @@ export default function GalleryPage() {
 
               <div className="mt-8 md:mt-10 text-center">
                  <blockquote className="border-l-4 border-primary pl-4 italic text-foreground/70 mt-4 md:mt-6 text-base sm:text-lg max-w-2xl mx-auto">
-                    "Setiap momen bersamamu adalah kenangan berharga. Semoga hari-harimu selalu seindah senyummu."
+                    "Maaf yahh klo ternyata aku jarang nge-fotoin kamu... cuman ini yang di galeri"
                 </blockquote>
               </div>
 
@@ -56,7 +56,7 @@ export default function GalleryPage() {
               <Link href="/" passHref>
                 <Button variant="outline">
                   <ArrowLeft className="mr-2 h-4 w-4" />
-                  Kembali ke Ucapan
+                  Kembali ke Halaman Utama
                 </Button>
               </Link>
             </footer>

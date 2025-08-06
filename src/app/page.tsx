@@ -41,12 +41,12 @@ export default function Home() {
                                     <Link href="/gallery" passHref>
                                         <Button size="lg" className="bg-primary/80 hover:bg-primary">
                                             <Camera className="mr-2 h-5 w-5" />
-                                            Lihat Kenangan
+                                            Lihat Galery
                                         </Button>
                                     </Link>
                                 </div>
                                 <blockquote className="border-l-4 border-primary pl-4 italic text-foreground/70 mt-4 md:mt-6 text-sm sm:text-base">
-                                    "hope you find ur way get home.."
+                                    "Wish you all the best"
                                 </blockquote>
                             </div>
                         </main>
@@ -61,7 +61,7 @@ export default function Home() {
               Silakan ganti `src` di bawah dengan URL atau path ke lagu "Selamat Ulang Tahun" dari Jamrud.
             */}
             <audio controls autoPlay loop className="fixed bottom-4 right-4 rounded-full shadow-lg w-64 md:w-80">
-                <source src="/selamat-ulang-tahun-jamrud.mp3" type="audio/mpeg" />
+                <source src="/audio/selamat-ulang-tahun-jamrud.mp3" type="audio/mpeg" />
                 Browser Anda tidak mendukung elemen audio.
             </audio>
         </div>
