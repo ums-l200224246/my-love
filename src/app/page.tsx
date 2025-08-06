@@ -32,21 +32,21 @@ export default function Home() {
                             </div>
                             <div className="w-full md:w-1/2 space-y-4 md:space-y-6 text-center md:text-left">
                                 <p className="text-base sm:text-lg leading-relaxed text-foreground/80">
-                                    Hai Annisa, selamat ulang tahun, ya! Nggak kerasa waktu cepat banget berlalu, sekarang kamu udah 21 tahun aja. Masih inget jelas semua kenangan yang pernah kita lewatin bareng.
+                                    Met Ultah dekk, moga tambah dewasa dan di permudah segala urusannya... Amiin
                                 </p>
                                 <p className="text-base sm:text-lg leading-relaxed text-foreground/80">
-                                    Di usiamu yang baru ini, aku doain yang terbaik buat kamu. Semoga kamu selalu bahagia, sehat, dan semua mimpi-mimpimu bisa tercapai. Tetap jadi Annisa yang aku kenal ya, yang ceria dan baik hati.
+                                    nggak banyak yang bisa ku sampaikan, semoga jadi lebih baik dari yang sebelumnya dan lekas sembuh
                                 </p>
                                 <div className="flex justify-center md:justify-start pt-4">
                                     <Link href="/gallery" passHref>
                                         <Button size="lg" className="bg-primary/80 hover:bg-primary">
                                             <Camera className="mr-2 h-5 w-5" />
-                                            Lihat Galeri Kenangan
+                                            Lampiran
                                         </Button>
                                     </Link>
                                 </div>
                                 <blockquote className="border-l-4 border-primary pl-4 italic text-foreground/70 mt-4 md:mt-6 text-sm sm:text-base">
-                                    "Meskipun jalan kita mungkin udah berbeda, kenangan kita akan selalu punya tempat spesial. Sekali lagi, selamat ulang tahun, Annisa!"
+                                    "hope you find ur way get home.."
                                 </blockquote>
                             </div>
                         </main>
@@ -54,7 +54,7 @@ export default function Home() {
                 </Card>
             </div>
              <footer className="text-center mt-8 md:mt-10 py-4">
-                <p className="text-sm text-muted-foreground">Dibuat dengan ❤️ khusus untukmu</p>
+                <p className="text-sm text-muted-foreground">Made With ❤️</p>
             </footer>
             {/* 
               Catatan: Karena alasan hak cipta, saya tidak dapat menyediakan file lagu secara langsung. 

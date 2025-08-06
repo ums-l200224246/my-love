@@ -6,7 +6,7 @@ import { ArrowLeft } from 'lucide-react';
 
 export default function GalleryPage() {
   const memories = [
-    { src: "https://placehold.co/600x400.png", hint: "friends laughing" },
+    { src: "https://placehold.co/400x600.png", hint: "friends laughing" },
     { src: "https://placehold.co/400x600.png", hint: "couple sunset" },
     { src: "https://placehold.co/600x400.png", hint: "group photo" },
     { src: "https://placehold.co/600x400.png", hint: "city skyline" },
@@ -21,10 +21,10 @@ export default function GalleryPage() {
           <CardContent className="p-6 md:p-12">
             <header className="text-center mb-8 md:mb-10">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-headline text-primary leading-tight">
-                Galeri Kenangan Kita
+                Few photos for you
               </h1>
               <p className="mt-2 text-lg sm:text-xl text-primary/80">
-                Setiap momen punya cerita.
+                semua pasti ada makna dan pembelajarannya.
               </p>
             </header>
 
@@ -57,7 +57,7 @@ export default function GalleryPage() {
         </Card>
       </div>
        <footer className="text-center mt-8 md:mt-10 py-4">
-          <p className="text-sm text-muted-foreground">Dibuat dengan ❤️ khusus untukmu</p>
+          <p className="text-sm text-muted-foreground">Made With ❤️</p>
       </footer>
     </div>
   );
