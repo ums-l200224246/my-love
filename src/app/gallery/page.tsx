@@ -6,7 +6,7 @@ import { ArrowLeft } from 'lucide-react';
 
 export default function GalleryPage() {
   const memories = [
-    { src: "https://placehold.co/600x400.png", hint: "friends laughing" },
+    { src: "/images/1.jpg", hint: "friends laughing" },
     { src: "https://placehold.co/600x400.png", hint: "couple sunset" },
     { src: "https://placehold.co/600x400.png", hint: "group photo" },
     { src: "https://placehold.co/600x400.png", hint: "city skyline" },
