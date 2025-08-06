@@ -58,14 +58,6 @@ export default function Home() {
              <footer className="text-center mt-8 md:mt-10 py-4 z-10">
                 <p className="text-sm text-muted-foreground">Made With ❤️</p>
             </footer>
-            {/* 
-              Catatan: Karena alasan hak cipta, saya tidak dapat menyediakan file lagu secara langsung. 
-              Silakan ganti `src` di bawah dengan URL atau path ke lagu "Selamat Ulang Tahun" dari Jamrud.
-            */}
-            <audio controls autoPlay loop className="fixed bottom-4 right-4 rounded-full shadow-lg w-64 md:w-80 z-20">
-                <source src="/audio/selamat-ulang-tahun-jamrud.mp3" type="audio/mpeg" />
-                Browser Anda tidak mendukung elemen audio.
-            </audio>
         </div>
     );
 }

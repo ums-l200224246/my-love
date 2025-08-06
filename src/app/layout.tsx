@@ -22,6 +22,14 @@ export default function RootLayout({
       <body className="font-body antialiased">
         {children}
         <Toaster />
+        {/* 
+          Catatan: Karena alasan hak cipta, saya tidak dapat menyediakan file lagu secara langsung. 
+          Silakan ganti `src` di bawah dengan URL atau path ke lagu "Selamat Ulang Tahun" dari Jamrud.
+        */}
+        <audio controls autoPlay loop className="fixed bottom-4 right-4 rounded-full shadow-lg w-64 md:w-80 z-20">
+            <source src="/audio/lagu.mp3" type="audio/mpeg" />
+            Browser Anda tidak mendukung elemen audio.
+        </audio>
       </body>
     </html>
   );
