@@ -3,11 +3,13 @@ import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Camera } from 'lucide-react';
+import { Fireworks } from '@/components/fireworks';
 
 export default function Home() {
     return (
-        <div className="flex flex-col items-center justify-center bg-background min-h-screen text-foreground p-4 sm:p-6 md:p-8 font-body">
-            <div className="w-full max-w-4xl mx-auto">
+        <div className="flex flex-col items-center justify-center bg-background min-h-screen text-foreground p-4 sm:p-6 md:p-8 font-body relative overflow-hidden">
+            <Fireworks />
+            <div className="w-full max-w-4xl mx-auto z-10">
                 <Card className="bg-card/80 backdrop-blur-sm border-primary/20 shadow-2xl rounded-2xl overflow-hidden">
                     <CardContent className="p-6 md:p-12">
                         <header className="text-center mb-6 md:mb-8">
@@ -22,7 +24,7 @@ export default function Home() {
                         <main className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
                             <div className="w-full md:w-1/2 flex-shrink-0">
                                 <Image 
-                                    src="https://placehold.co/600x800.png"
+                                    src="/images/main.jpg"
                                     alt="Potret Annisa Fitri Nur Salmi"
                                     width={600}
                                     height={800}
@@ -32,7 +34,7 @@ export default function Home() {
                             </div>
                             <div className="w-full md:w-1/2 space-y-4 md:space-y-6 text-center md:text-left">
                                 <p className="text-base sm:text-lg leading-relaxed text-foreground/80">
-                                    Met Ultah dekk, moga tambah dewasa dan di permudah segala urusannya... Amiin
+                                    Selamat Ulang tahun my love, moga tambah dewasa dan di permudah segala urusannya... Amiin
                                 </p>
                                 <p className="text-base sm:text-lg leading-relaxed text-foreground/80">
                                     nggak banyak yang bisa ku sampaikan, semoga jadi lebih baik dari yang sebelumnya dan lekas sembuh
@@ -53,14 +55,14 @@ export default function Home() {
                     </CardContent>
                 </Card>
             </div>
-             <footer className="text-center mt-8 md:mt-10 py-4">
+             <footer className="text-center mt-8 md:mt-10 py-4 z-10">
                 <p className="text-sm text-muted-foreground">Made With ❤️</p>
             </footer>
             {/* 
               Catatan: Karena alasan hak cipta, saya tidak dapat menyediakan file lagu secara langsung. 
               Silakan ganti `src` di bawah dengan URL atau path ke lagu "Selamat Ulang Tahun" dari Jamrud.
             */}
-            <audio controls autoPlay loop className="fixed bottom-4 right-4 rounded-full shadow-lg w-64 md:w-80">
+            <audio controls autoPlay loop className="fixed bottom-4 right-4 rounded-full shadow-lg w-64 md:w-80 z-20">
                 <source src="/audio/selamat-ulang-tahun-jamrud.mp3" type="audio/mpeg" />
                 Browser Anda tidak mendukung elemen audio.
             </audio>
