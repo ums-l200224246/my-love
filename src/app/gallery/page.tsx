@@ -46,7 +46,7 @@ export default function GalleryPage() {
 
               <div className="mt-8 md:mt-10 text-center">
                  <blockquote className="border-l-4 border-primary pl-4 italic text-foreground/70 mt-4 md:mt-6 text-base sm:text-lg max-w-2xl mx-auto">
-                    "Sorry if it turns out I rarely take photos of you... this is all that's in the gallery"
+                    "maaf yaahh kalau aku jarang fotoin km... but im really miss that day. hope you happy always"
                 </blockquote>
               </div>
 
