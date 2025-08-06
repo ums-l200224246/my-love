@@ -3,15 +3,16 @@ import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
+import { Textarea } from '@/components/ui/textarea';
 
 export default function GalleryPage() {
   const memories = [
     { src: "/images/1.jpg", hint: "friends laughing" },
-    { src: "https://placehold.co/600x400.png", hint: "couple sunset" },
-    { src: "https://placehold.co/600x400.png", hint: "group photo" },
-    { src: "https://placehold.co/600x400.png", hint: "city skyline" },
-    { src: "https://placehold.co/600x400.png", hint: "beach vacation" },
-    { src: "https://placehold.co/600x400.png", hint: "birthday party" },
+    { src: "/images/2.jpg", hint: "couple sunset" },
+    { src: "/images/3.jpg", hint: "group photo" },
+    { src: "/images/4.jpg", hint: "city skyline" },
+    { src: "/images/5.jpg", hint: "beach vacation" },
+    { src: "/images/6.jpg", hint: "birthday party" },
   ];
 
   return (
@@ -43,6 +44,15 @@ export default function GalleryPage() {
                   </div>
                 ))}
               </div>
+
+              <div className="mt-8 md:mt-10 text-center">
+                <Textarea
+                  placeholder="Tuliskan harapan atau kenanganmu di sini..."
+                  className="bg-background/50 border-primary/30"
+                  rows={3}
+                />
+              </div>
+
             </main>
 
             <footer className="text-center mt-10 md:mt-12">
