@@ -7,11 +7,11 @@ import { ArrowLeft } from 'lucide-react';
 export default function GalleryPage() {
   const memories = [
     { src: "/images/1.jpg", hint: "friends laughing" },
-    { src: "https://placehold.co/600x400.png", hint: "couple sunset" },
-    { src: "https://placehold.co/600x400.png", hint: "group photo" },
-    { src: "https://placehold.co/600x400.png", hint: "city skyline" },
-    { src: "https://placehold.co/600x400.png", hint: "beach vacation" },
-    { src: "https://placehold.co/600x400.png", hint: "birthday party" },
+    { src: "/images/2.jpg", hint: "couple sunset" },
+    { src: "/images/4.jpg", hint: "group photo" },
+    { src: "/images/3.jpg", hint: "city skyline" },
+    { src: "/images/5.jpg", hint: "beach vacation" },
+    { src: "/images/6.jpg", hint: "birthday party" },
   ];
 
   return (
